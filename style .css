@@ -1,0 +1,279 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+
+.logo img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.history {
+    max-width: 60%; 
+    margin-bottom: 20px;
+}
+
+
+.history h1 {
+    font-size: 3.8em;
+    font-weight: bold;
+    color: #ac9f9f;
+    margin-bottom: 10px;
+}
+
+
+.history p {
+    font-size: 1.8rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+}
+
+
+.button1, .button2 {
+    padding: 12px 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.button1 {
+    background-color: #077780;
+    color: white;
+}
+
+
+.button2 {
+    background-color: #007BFF;
+    color: white;
+}
+
+
+.button1:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.button2:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+.hero{
+    position: relative;
+    background: url('img/bg-header-desktop.png') no-repeat center center;
+    background-size: cover;
+}
+.track p {
+    text-align: justify;
+    text-align: center;
+    font-size: 2.8rem;
+}
+.track h2 {
+    text-align: justify;
+    text-align: center;
+    font-size: 3.5em;
+    padding-top: 400px;
+}
+.cloud{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 500px;
+}
+.quick{
+    /* text-align: justify; */
+    text-align: center;
+    font-size: 2rem;
+}
+.Access{
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+}
+.Acp h2{
+
+    text-align: justify;
+    text-align: center;
+    font-size: 3.5em;
+    padding-top: 400px
+}
+.Acp p{
+ text-align: justify;
+    text-align: center;
+    font-size: 1.9rem;
+  
+}
+.device{
+    justify-items: center;
+    padding-left: 20%;
+    padding-top: 200px;
+}
+
+.cps{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    gap: 200px;
+    align-items: center;
+
+}
+.supercharge{
+    padding-bottom: 60px;
+}
+.pts , .sp,  h2{
+    text-align: center;
+    text-align: justify;
+    font-size: 2.3rem;
+
+}
+.createblack h2{
+    text-align: center;
+    text-align: justify;
+    font-size: 2.3rem;
+
+}
+.createBlack, .sp, .pts p{
+    text-align: center;
+    text-align: justify;
+    font-size: 1.8rem;
+
+}
+.pimg{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    justify-content: center;
+    padding-top: 200px;
+}
+.clipboardss {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 40px;
+    /* border-radius: 10px; */
+    max-width: 100%;
+    margin: 50px auto;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.clipboardss h1 {
+    font-size: 38px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.clipboardss p {
+    font-size: 28px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.bts {
+    margin-top: 20px;
+}
+
+.bts button {
+    background: #0f068b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 38px;
+    /* transition: background 0.3s ease-in-out; */
+    
+}
+
+.bts button:hover {
+    background: #45a049;
+} .button3 {
+    background-color: #0056b3;
+}
+
+footer {
+    background: rgb(255, 255, 255);
+    color: #6b6666;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lg img {
+    width: 120px;
+}
+
+.cwc {
+    display: flex;
+    gap: 50px;
+    font-size: 1.8rem;
+}
+
+.cwc div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cwc p {
+    margin: 0;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.8rem;
+}
+
+.cwc p:hover {
+    color: #4CAF50;
+}
+
+.fti {
+    display: flex;
+    gap: 15px;
+
+}
+
+.fti img {
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.fti img:hover {
+    transform: scale(1.1);
+}
+
+
